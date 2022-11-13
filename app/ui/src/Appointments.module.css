@@ -1,0 +1,30 @@
+.container {
+    min-width: 380px;
+}
+
+.msg {
+    width: 380px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nameHeader {
+    font-size: 40px;
+    margin: 40px 0 8px;
+}
+
+.email {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.table {
+    margin-top: 30px;
+}
+
+.thead {
+    background-color: #2196f3;
+    color: white;
+}

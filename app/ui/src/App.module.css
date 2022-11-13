@@ -1,0 +1,49 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.appName {
+  color: #2196f3;
+  font-size: xx-large;
+  margin: 0;
+}
+
+.physList {
+  flex-basis: 250px;
+  background-color: #eeeeee;
+  padding: 14px;
+  margin-right: 10px;
+}
+
+.selected {
+  background-color: #2196f3;
+}
+
+.selected span {
+  color: white;
+}
+
+.logoutContainer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.logout {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  padding: 5px 13px 9px;
+  border-radius: 5px;
+  border: none;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
